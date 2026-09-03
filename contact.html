@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Chenoo Obert Quindao</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="page-header">
+
+    <nav>
+        <div class="nav-container">
+            <h2 class="logo">COQ.</h2>
+
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Me</a>
+                <a href="projects.html">Projects</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="page-title">
+        <p>GET IN TOUCH</p>
+        <h1>Contact Me</h1>
+    </div>
+
+</header>
+
+<main>
+
+    <section class="contact-intro">
+
+        <h2>Let's Connect</h2>
+
+        <p>
+            If you want to contact me, you can use the information
+            below or send a message using the form.
+        </p>
+
+    </section>
+
+
+    <section class="contact-info">
+
+        <article class="contact-card">
+            <h3>Email</h3>
+            <p>chenooquindao@gmail.com</p>
+        </article>
+
+        <article class="contact-card">
+            <h3>Location</h3>
+            <p>Danao City Cebu, Philippines</p>
+        </article>
+
+        <article class="contact-card">
+            <h3>Availability</h3>
+            <p>Available for school-related projects</p>
+        </article>
+
+    </section>
+
+
+    <section class="form-section">
+
+        <h2>Send Me a Message</h2>
+
+        <form action="#" method="post">
+
+            <!-- Text Field -->
+            <label for="fullname">Full Name</label>
+            <input
+                type="text"
+                id="fullname"
+                name="fullname"
+                placeholder="Enter your full name"
+                required
+            >
+
+
+            <!-- Email Field -->
+            <label for="email">Email Address</label>
+            <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email"
+                required
+            >
+
+
+            <!-- Radio Buttons -->
+            <label>Gender</label>
+
+            <div class="radio-group">
+
+                <label>
+                    <input type="radio" name="gender" value="male">
+                    Male
+                </label>
+
+                <label>
+                    <input type="radio" name="gender" value="female">
+                    Female
+                </label>
+
+                <label>
+                    <input type="radio" name="gender" value="prefer-not">
+                    Prefer not to say
+                </label>
+
+            </div>
+
+
+            <!-- Dropdown -->
+            <label for="purpose">Purpose of Contact</label>
+
+            <select id="purpose" name="purpose">
+
+                <option value="">Select an option</option>
+                <option value="question">Ask a Question</option>
+                <option value="feedback">Give Feedback</option>
+                <option value="project">Project Inquiry</option>
+                <option value="other">Other</option>
+
+            </select>
+
+
+            <!-- Checkboxes -->
+            <label>Topics You Are Interested In</label>
+
+            <div class="checkbox-group">
+
+                <label>
+                    <input type="checkbox" name="topic" value="html">
+                    HTML
+                </label>
+
+                <label>
+                    <input type="checkbox" name="topic" value="css">
+                    CSS
+                </label>
+
+                <label>
+                    <input type="checkbox" name="topic" value="web">
+                    Web Development
+                </label>
+
+            </div>
+
+
+            <!-- Textarea -->
+            <label for="message">Message</label>
+
+            <textarea
+                id="message"
+                name="message"
+                rows="6"
+                placeholder="Write your message here..."
+                required
+            ></textarea>
+
+
+            <!-- Buttons -->
+            <div class="form-buttons">
+
+                <button type="submit">
+                    Submit
+                </button>
+
+                <button type="reset" class="reset-button">
+                    Reset
+                </button>
+
+            </div>
+
+        </form>
+
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 Chenoo Obert Quindao. All Rights Reserved.</p>
+    <p>Personal Portfolio Website | HTML Final Project</p>
+</footer>
+
+</body>
+</html>
